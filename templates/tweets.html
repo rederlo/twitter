@@ -1,0 +1,19 @@
+<html>
+<head>
+</head>
+<body>
+<h2>
+Tweets Successfully posted, verify in the below tweets
+</h2>
+<br>
+{% for tweet in tweets %}
+	<br>
+	<h3>Tweet:</h3>
+	{{ tweet.text }}
+	<h3>Tweeted at:</h3>
+	{{ tweet.created_at }}
+
+{% endfor %}
+
+</body>
+</html>
