@@ -100,5 +100,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
 
 STATIC_URL = '/static/'
-TWITTER_CONSUMER_KEY = 'hJNK668aplCAp2X67I7oeORjq'
-TWITTER_CONSUMER_SECRET_KEY = 'NydUfEtjkMgYLgxoddziy3NpMs6o0NoDOWtT0a7f9UjLmtF29s'
+TWITTER_CONSUMER_KEY = ''
+TWITTER_CONSUMER_SECRET_KEY = ''
